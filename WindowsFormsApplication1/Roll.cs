@@ -9,6 +9,7 @@ namespace WindowsFormsApplication1
 
     public class Roll
     {
+        public string aaa { get; set; }
         public string RollName { get; set; }
         public List<decimal> UsePossibleValue { get; set; }
         public virtual decimal Point { get { return UsePossibleValue[0]; } }
